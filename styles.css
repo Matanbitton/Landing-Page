@@ -1,14 +1,9 @@
 html , body {
     margin: 0;
-}
+}  
 
-
-.container {
-    margin: 0;
-
-}
 .container .header {
-    background-color: #ffffff	;
+    background-color: #141d26;	;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -31,6 +26,8 @@ html , body {
    display: flex;
    justify-content: space-evenly; 
    gap: 16px;
+   font-family:'Roboto',sans-serif;
+
    
 }
 .container .header a {
@@ -40,13 +37,52 @@ html , body {
 }
 
 .container .intro {
-    background-color: #243447;  
+    background-color: #141d26;  
     height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px;
+
+
+
     
 }
-.container .page-intro-text{
- 
+.container .intro button {
+    background-color: #c51f5d;
+    padding: 6px;
+    text-align:center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 100px;
+    border-radius: 2em;
+    color: #ffffff;
+    font-family:'Roboto',sans-serif;
 
 
+    
+     
+} 
+.container .intro button p {
+    margin: 0%;
+}
+
+.container .page-intro-text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:#ffffff;
+    
+}
+.container .page-intro-img img {
+    height: auto;
+    width: 400px;
+    border: 2px solid #c51f5d;
+    display: flex;
+
+    
+
+    
+}
+
+.container .page-intro-img {
 
 }
